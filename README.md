@@ -7,7 +7,7 @@ When the process is finished logs are entered into Entry table in hsqldb
 ## Requirements
 Java 8
 
-## Running tests
+## Running tests, build and running jar
 ```
 cd PROJECT_DIR
 ./mvn clean install
