@@ -5,9 +5,11 @@ import java.io.UncheckedIOException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+@Component
 public class Utility {
 
 	private static final Logger LOG = LoggerFactory.getLogger(Utility.class);
